@@ -1,0 +1,69 @@
+.formContainer{
+    height: 100vh;
+    background: #C4BBF0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .formWrapper{
+        background-color: white;
+        display: flex;
+     
+        padding: 20px 60px;
+        text-align: left;
+        margin-top: 10px;
+        gap:12px;
+      
+        border-radius: 12px;
+        .answer{
+            display: flex;
+            
+            gap: 20px;
+        }
+        button{
+            margin-top: 5px;
+             background: #4F3B78;
+            padding: 10px 20px;
+            color: white;
+             font-weight: bold;
+            border:none;
+            cursor: pointer;
+
+    }
+        .logo{
+            font-weight: bold;
+            font-size: 24px;
+            color: #4F3B78;
+        }
+        .title{
+            color: #4F3B78; 
+            font-size: 12px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+          
+            gap:12px;
+            #file{
+                display: none;
+            }
+            input{
+                padding: 15px;
+                border:none;
+                border-bottom: 1px solid #4F3B78;
+                outline: none;
+                &::placeholder{
+                    color:rgba(175 175 175 )
+                }
+            }
+                
+        }
+        p{
+            color: #4F3B78;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    }
+  }
+  
